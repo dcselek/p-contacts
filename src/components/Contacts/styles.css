@@ -1,0 +1,40 @@
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #78d8c0;
+  width: 20vw;
+  padding: 1.2rem;
+}
+
+input{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding: 8px;
+    margin: 4px 0px;
+}
+
+ul, li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#list{
+    margin: 24px 2px;
+}
+
+#list > li{
+    background-color: #6078c0;
+    padding: 10px;
+    margin-bottom: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#list > li > span {
+    color: white;
+    font-weight: bold;
+}
