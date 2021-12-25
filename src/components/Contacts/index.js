@@ -10,7 +10,7 @@ function Contacts() {
     }, [contacts])
     return (
         <div>
-            <List />
+            <List contacts={contacts} />
             <Form setContacts={setContacts} contacts={contacts} />
         </div>
     )
